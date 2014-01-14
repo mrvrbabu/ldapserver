@@ -1,0 +1,27 @@
+{
+  "project_page": "https://github.com/mrvrbabu/rbabu-repo/blob/master/init.pp",
+  "author": "rbabu",
+  "checksums": {
+    "README": "8cbcfdb41285b7e8ae069aed9816c222",
+    "templates/DB_CONFIG": "e1e81fad1e1329e30357a2783deab250",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "templates/slapd.conf": "67276f1b2f958cc6643ce5f513944784",
+    "tests/add_ous.ldif": "ffaee381bbf0ad0e1ed010336f4a2ccf",
+    "tests/init.pp": "4f4322d4374ba259f07818339749cfa8",
+    "manifests/init.pp": "a9a31c1e87c6feacb9f03715f5ef285e",
+    "tests/base.ldif": "a8df8a8ab90deda732d91bea1b0366bf",
+    "Modulefile": "7b34b32ade6d93950581e8c97bcc3e6a"
+  },
+  "types": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "source": "puppet forge",
+  "license": "Apache License, Version 2.0",
+  "name": "rbabu-ldapserver",
+  "description": "This module can be used to install and configure ldap server on a target host on rhel5/rhel6 platform using openldap-server rpms",
+  "summary": "This module can be used to install and configure ldap server",
+  "version": "0.0.1"
+}
