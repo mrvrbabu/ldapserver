@@ -1,0 +1,9 @@
+#ldapmodify -D "cn=Manager,dc=homeoffice,dc=net" -x -a -W -f add_OUs.ldif
+#ldapadd -D "cn="Manager,dc=homeoffice,dc=net" -W -h localhost -x
+
+#Build the root node
+dn:  dc=homeoffice, dc=net
+dc:  homeoffice
+objectClass: dcObject
+objectClass: organizationalUnit
+ou: People 
